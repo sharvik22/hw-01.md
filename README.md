@@ -150,12 +150,9 @@ nano terraform.tfstate
 
 resource "docker_image" "nginx" {
   name         = "nginx:latest"
-*  keep_locally = true
+  keep_locally = true
 }
 
 ![image](https://github.com/user-attachments/assets/97ee41c2-cef6-4e20-83d0-a127fd25c4ae)
 
 -------
-
-
-
