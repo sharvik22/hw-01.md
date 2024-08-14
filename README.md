@@ -50,8 +50,26 @@
 
 ### Решение 1
 
+2. Изучите файл **.gitignore**. В каком terraform-файле, согласно этому .gitignore, допустимо сохранить личную, секретную информацию?(логины,пароли,ключи,токены итд)
+Сохранить личную, секретную информацию (логины, пароли, ключи, токены и т.д.) допустимо в файле personal.auto.tfvars. 
 
 
+3. Выполните код проекта. Найдите  в state-файле секретное содержимое созданного ресурса **random_password**, пришлите в качестве ответа конкретный ключ и его значение.
+
+terraform init
+![image](https://github.com/user-attachments/assets/06bb9eac-ec82-4fd9-a7e1-8559dbe2ad1a)
+
+terraform plan
+![image](https://github.com/user-attachments/assets/d2f65390-bee0-41e8-a359-4644d8c417cf)
+
+terraform apply
+![image](https://github.com/user-attachments/assets/07cfbf73-51e5-472c-82c0-df6154ac7efd)
+
+![image](https://github.com/user-attachments/assets/b7a1d1e7-aac4-4466-a7c3-d8a087feddac)
+
+
+nano terraform.tfstate
+![image](https://github.com/user-attachments/assets/3a5d6070-8c20-47f8-9dde-65db89014759)
 
 --------
 
