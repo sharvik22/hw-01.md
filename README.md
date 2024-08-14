@@ -84,8 +84,12 @@ terraform validate
 
 ![image](https://github.com/user-attachments/assets/d3a593f3-650e-40c5-9c62-9a4d09826fb9)
 
+Неверный синтаксис:
+Отсуствует имя ресурса resource "docker_image
+Не верное имя ресурса 1nginx
 
---------
+
+-------
 
 ## Дополнительное задание (со звёздочкой*)
 
