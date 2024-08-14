@@ -76,6 +76,15 @@ nano terraform.tfstate
 
 ![image](https://github.com/user-attachments/assets/3a5d6070-8c20-47f8-9dde-65db89014759)
 
+
+4. Раскомментируйте блок кода, примерно расположенный на строчках 29–42 файла **main.tf**.
+Выполните команду ```terraform validate```. Объясните, в чём заключаются намеренно допущенные ошибки. Исправьте их.
+
+terraform validate
+
+![image](https://github.com/user-attachments/assets/d3a593f3-650e-40c5-9c62-9a4d09826fb9)
+
+
 --------
 
 ## Дополнительное задание (со звёздочкой*)
