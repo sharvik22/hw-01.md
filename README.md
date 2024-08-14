@@ -92,6 +92,37 @@ terraform validate
 
 ![image](https://github.com/user-attachments/assets/46f3de56-e103-46d0-9b74-1c1d19981bf4)
 
+5. Выполните код. В качестве ответа приложите: исправленный фрагмент кода и вывод команды ```docker ps```.
+
+terraform apply
+
+![image](https://github.com/user-attachments/assets/dfc96386-1b00-48f5-b06a-e9ac43beec12)
+
+![image](https://github.com/user-attachments/assets/abe61190-29ad-434e-a94d-715b1b39105b)
+
+![image](https://github.com/user-attachments/assets/dce7bed6-a716-4850-8d0c-f112ccebcf73)
+
+исправленный фрагмент кода:
+
+resource "docker_image" "nginx" {
+  name         = "nginx:latest"
+  keep_locally = true
+}
+
+resource "docker_container" "nginx" {
+  image = docker_image.nginx.image_id
+  name  = "example_${random_password.random_string.result}"
+
+6. Замените имя docker-контейнера в блоке кода на ```hello_world```. Не перепутайте имя контейнера и имя образа. Мы всё ещё продолжаем использовать name = "nginx:latest". Выполните команду ```terraform apply -auto-approve```.
+Объясните своими словами, в чём может быть опасность применения ключа  ```-auto-approve```. Догадайтесь или нагуглите зачем может пригодиться данный ключ? В качестве ответа дополнительно приложите вывод команды ```docker ps```.
+
+![image](https://github.com/user-attachments/assets/8bbcfbab-6858-4bfe-b730-527b7d11d9a3)
+
+terraform apply -auto-approve
+
+![image](https://github.com/user-attachments/assets/1ee8db1a-7861-43d8-91a7-42b913f5301b)
+
+
 
 
 
