@@ -13,13 +13,13 @@
 2. Скачайте на свой ПК этот git-репозиторий. Исходный код для выполнения задания расположен в директории **01/src**.
 3. Убедитесь, что в вашей ОС установлен docker.
 
-1.
+1)
 ![Screenshot_1](https://github.com/user-attachments/assets/6ebae687-4170-4697-b28b-c4b0e2a7c1c5)
 
-2.
+2)
 ![image](https://github.com/user-attachments/assets/6099bb52-433d-4501-b8a6-b207738d96fb)
 
-3.
+3)
 ![image](https://github.com/user-attachments/assets/4cac0770-1d1e-48fd-892a-6346f9ff91ad)
 
 ------
